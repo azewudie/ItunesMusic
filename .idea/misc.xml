@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/ic_baseline_home_24.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/ic_baseline_notifications_24.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/ic_baseline_queue_music_24.xml" value="0.2535" />
+        <entry key="app/src/main/res/drawable/ic_blue_notifications_24.xml" value="0.1" />
+        <entry key="app/src/main/res/drawable/ic_blue_queue_music_24.xml" value="0.1" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/body_collection_container_layout.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/body_container_layout.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/classic_music_fragment_layout.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/fragment_classic_music.xml" value="0.2534174192850897" />
+        <entry key="app/src/main/res/layout/fragment_classic_music_details.xml" value="0.1469098277608916" />
+        <entry key="app/src/main/res/layout/fragment_pop_music.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/fragment_pop_music_details_layout.xml" value="0.1469098277608916" />
+        <entry key="app/src/main/res/layout/fragment_rock_music.xml" value="0.3069717407226562" />
+        <entry key="app/src/main/res/layout/fragment_rock_music_details.xml" value="0.1469098277608916" />
+        <entry key="app/src/main/res/layout/header_container.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/header_icon_container.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/pop_music_fragment_layout.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/rock_music_fragment_layout.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/toolbar.xml" value="0.10869565217391304" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
