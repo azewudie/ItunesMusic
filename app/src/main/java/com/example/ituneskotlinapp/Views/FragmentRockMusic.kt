@@ -38,7 +38,6 @@ class FragmentRockMusic : Fragment() {
         Log.d("binding", "onCreateView: ${binding.root}")
         return binding.root
     }
-
     private fun initViews() {
         adapter = MusicAdapter(emptyList()){
             updateAdapter(it as List<MusicData>)
@@ -47,7 +46,6 @@ class FragmentRockMusic : Fragment() {
         binding.rvRockMusic.adapter =adapter
         binding.rvRockMusic.layoutManager =LinearLayoutManager(context)
     }
-
     private fun initObservables() {
         viewModel?.musicRock()
         viewModel.rockMusicResult.observe(viewLifecycleOwner, Observer {
@@ -55,7 +53,6 @@ class FragmentRockMusic : Fragment() {
         })
 
     }
-
     open fun updateAdapter(dataSet: List<MusicData>){
         adapter.updateList(dataSet)
     }

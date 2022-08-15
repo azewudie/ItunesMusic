@@ -14,7 +14,6 @@ import com.example.ituneskotlinapp.ViewModels.MusicViewModel
 import com.example.ituneskotlinapp.Views.adapter.PopAdapter
 import com.example.ituneskotlinapp.databinding.FragmentPopMusicBinding
 
-
 class FragmentPopMusic : Fragment() {
     private lateinit var binding: FragmentPopMusicBinding
     private lateinit var adapter: PopAdapter
@@ -23,7 +22,6 @@ class FragmentPopMusic : Fragment() {
             this
         )[MusicViewModel::class.java]
     }
-
     override fun onCreateView(
         inflater: LayoutInflater,
         container: ViewGroup?,

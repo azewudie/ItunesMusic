@@ -1,8 +1,11 @@
 package com.example.ituneskotlinapp.Views.adapter
 
+import android.content.Intent
+import android.net.Uri
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat.startActivity
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ituneskotlinapp.Models.MusicData
 import com.example.ituneskotlinapp.R
@@ -17,7 +20,7 @@ class PopAdapter(var musicList:List<MusicData>, private var openData:(MusicData)
         fun onBinding(dataItem : MusicData, openData: (MusicData) -> Unit){
             binding.title.text= dataItem.artistName
             binding.classic.text = dataItem.collectionCensoredName
-            binding.price.text = dataItem.trackPrice
+            binding.price.text = dataItem.trackPrice +" USD"
             Picasso.get()
                 .load(dataItem.artworkUrl100)
                 .placeholder(R.drawable.ic_baseline_home_24)

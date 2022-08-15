@@ -7,6 +7,7 @@
     android:layout_height="wrap_content"
     android:background="@color/blue"
     >
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/rv_classic_music"
         android:layout_width="0dp"

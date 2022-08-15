@@ -1,8 +1,12 @@
 package com.example.ituneskotlinapp.Views.adapter
 
+
+import android.content.Intent
+import android.net.Uri
 import android.util.Log
 import android.view.LayoutInflater
 import android.view.ViewGroup
+import androidx.core.content.ContextCompat.startActivity
 
 import androidx.recyclerview.widget.RecyclerView
 import com.example.ituneskotlinapp.Models.MusicData
@@ -18,16 +22,13 @@ class MusicAdapter (var musicList:List<MusicData>,private var openData:(MusicDat
         fun onBinding(dataItem : MusicData,openData: (MusicData) -> Unit){
             binding.title.text= dataItem.artistName
             binding.classic.text = dataItem.collectionCensoredName
-            binding.price.text = dataItem.trackPrice
+            binding.price.text = dataItem.trackPrice +" USD"
             Picasso.get()
                 .load(dataItem.artworkUrl100)
                 .placeholder(R.drawable.ic_baseline_home_24)
                 .error(R.drawable.ic_baseline_home_24)
                 .into(binding.homeBanner)
-
         }
-
-
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
@@ -48,9 +49,6 @@ class MusicAdapter (var musicList:List<MusicData>,private var openData:(MusicDat
     override fun getItemCount(): Int {
         Log.d("Hello", "getItemCount: ${musicList.size}")
         return musicList.size
-
     }
-
-
 
 }

@@ -9,15 +9,18 @@
         <entry key="app/src/main/res/drawable/ic_blue_notifications_24.xml" value="0.1" />
         <entry key="app/src/main/res/drawable/ic_blue_queue_music_24.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.2776268115942029" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.10106382978723404" />
         <entry key="app/src/main/res/layout/body_collection_container_layout.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/body_container_layout.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/classic_music_fragment_layout.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/fragment_classic_music.xml" value="0.2534174192850897" />
         <entry key="app/src/main/res/layout/fragment_classic_music_details.xml" value="0.1469098277608916" />
+        <entry key="app/src/main/res/layout/fragment_classic_music_details_layout.xml" value="0.12222222222222222" />
         <entry key="app/src/main/res/layout/fragment_pop_music.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/fragment_pop_music_details_layout.xml" value="0.1469098277608916" />
         <entry key="app/src/main/res/layout/fragment_rock_music.xml" value="0.3069717407226562" />
         <entry key="app/src/main/res/layout/fragment_rock_music_details.xml" value="0.1469098277608916" />
+        <entry key="app/src/main/res/layout/fragment_rock_music_details_layout.xml" value="0.12222222222222222" />
         <entry key="app/src/main/res/layout/header_container.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/header_icon_container.xml" value="0.2776268115942029" />
         <entry key="app/src/main/res/layout/pop_music_fragment_layout.xml" value="0.2776268115942029" />
